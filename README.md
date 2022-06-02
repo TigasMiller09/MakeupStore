@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Makeup Store Web Application
 
 This project is a web application developed using React. The app communicates with the [Makeup API](https://makeup-api.herokuapp.com/) to get the products.
 
