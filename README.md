@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project is a web application developed using React that communicates with the [Makeup API](https://makeup-api.herokuapp.com/) to get information about products.
+This project is a web application developed using React. The app communicates with the [Makeup API](https://makeup-api.herokuapp.com/) to get the products.
 
 ## Features
 - Fecthes products from the API
@@ -28,4 +28,22 @@ This project is a web application developed using React that communicates with t
 
 ### Desktop
 
+<div style="display: flex, flex-direction: row, flex-wrap:wrap">
+  <img src="https://github.com/TigasMiller09/MakeupStore/blob/master/screenshots/products-desktop.png" alt="drawing" width="500"/>
+  <img src="https://github.com/TigasMiller09/MakeupStore/blob/master/screenshots/pagination-desktop.png" alt="drawing" width="500"/>
+  <img src="https://github.com/TigasMiller09/MakeupStore/blob/master/screenshots/quickpreview-desktop.png" alt="drawing" width="500"/>
+  <img src="https://github.com/TigasMiller09/MakeupStore/blob/master/screenshots/product-desktop.png" alt="drawing" width="500"/>
+</div>
+
 ### Mobile
+
+<div style="display: flex, flex-direction: row, flex-wrap:wrap">
+  <img src="https://github.com/TigasMiller09/MakeupStore/blob/master/screenshots/products-mobile.png" alt="drawing" width="200"/>
+  <img src="https://github.com/TigasMiller09/MakeupStore/blob/master/screenshots/products-mobile.png" alt="drawing" width="200"/>
+  <img src="https://github.com/TigasMiller09/MakeupStore/blob/master/screenshots/filters-mobile.png" alt="drawing" width="200"/>
+  <img src="https://github.com/TigasMiller09/MakeupStore/blob/master/screenshots/nav-mobile.png" alt="drawing" width="200"/>
+  <img src="https://github.com/TigasMiller09/MakeupStore/blob/master/screenshots/quickpreview-mobile.png" alt="drawing" width="200"/>
+  <img src="https://github.com/TigasMiller09/MakeupStore/blob/master/screenshots/product-mobile.png" alt="drawing" width="200"/>
+  <img src="https://github.com/TigasMiller09/MakeupStore/blob/master/screenshots/product2-mobile.png" alt="drawing" width="200"/>
+  <img src="https://github.com/TigasMiller09/MakeupStore/blob/master/screenshots/relatedproducts-mobile.png" alt="drawing" width="200"/>
+</div>
