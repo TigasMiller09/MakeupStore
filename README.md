@@ -7,6 +7,7 @@ This project is a web application developed using React. The app communicates wi
 - Handles the different responses to the API calls (loading, error, etc)
 - Allows to filter products
   - The filters remain applied if the page is reloaded (saved on URL)
+- The filters have custom styles (custom checkbox)
 - Includes pagination to prevent too much products to be shown at the same time
 - The main page include general information about the products (image, name, brand, rating, price)
 - Products list is sorted by rating
