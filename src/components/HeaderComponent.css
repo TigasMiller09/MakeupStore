@@ -1,0 +1,172 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    background: white;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(246, 246, 246);
+    z-index: 10;
+}
+
+.logo-div {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    align-items: center;
+}
+
+.logo-div div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    margin-right: 15px;
+}
+
+.brand-name {
+    align-self: center;
+    color: rgb(40, 40, 52);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex: 3;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.nav-item {
+    margin-left: 25px;
+    color: rgb(40, 40, 52);
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.nav-item:hover, .nav-item:focus {
+    color: rgb(138, 138, 148);
+    transition: all 0.2s;
+}
+
+
+.cart-div {
+    border-radius: 10px;
+    height: 20px;
+}
+
+.cart-div:hover {
+    cursor: pointer;
+}
+
+.cart-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 25px;
+    margin-top: -1px;
+    color: rgb(40, 40, 52);
+}
+
+.menu-icon {
+    background-color: rgb(72, 72, 90);
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.menu-icon:hover {
+    background-color: rgb(40, 40, 52);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.menu-icon img {
+    width: 25px;
+    height: 25px;
+}
+
+@media (max-width:630px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .header {
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+        background-color: rgb(40, 40, 52);
+    }
+
+    .logo-div {
+        padding-left: 0;
+    }
+
+    .brand-name {
+        color: white;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+
+    .logo-div {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .nav {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .nav-item {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        border-bottom-style: solid;
+        border-bottom-width: 0.5px;
+        border-bottom-color: rgb(55, 55, 66);
+    }
+
+    .cart-icon {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .cart-div {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:450px) {
+    .header {
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

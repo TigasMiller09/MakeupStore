@@ -1,5 +1,19 @@
+body {
+  /* font-family: sans-serif */
+  /* background-color: rgb(237, 237, 224); */
+  background-color: rgb(252, 252, 252);
+}
+
+a {
+  text-decoration: none;
+}
+
 .App {
   text-align: center;
+}
+
+body > #root {
+  height: 100vh;
 }
 
 .App-logo {
@@ -36,3 +50,4 @@
     transform: rotate(360deg);
   }
 }
+
