@@ -2,25 +2,29 @@
 
 This project is a web application developed using React. The app communicates with the [Makeup API](https://makeup-api.herokuapp.com/) to get the products.
 
+To run the project just do the following:
+- npm install
+- npm start
+
 ## Features
 - Fetches products from the API
 - Handles the different responses to the API calls (loading, error, etc)
+- The main page includes general information about the products (image, name, brand, rating, price)
 - Allows to filter products
   - The filters remain applied if the page is reloaded (saved on URL)
 - The filters have custom styles (custom checkbox)
-- Includes pagination to prevent too much products to be shown at the same time
-- The main page include general information about the products (image, name, brand, rating, price)
-- Products list is sorted by rating
-- If click on product image it opens a Modal with the product's quick preview
+- Includes local pagination to prevent too much products to be shown at the same time
+- Products' list is sorted by rating
+- If click on product's image it opens a Modal with the product's quick preview
 - If click on product it opens the individual product page
-- The  product page contains detailed information about the product
-- The product page shows related products
+- The product's page contains detailed information about the product
+- The product's page shows related products
 - The layout is responsive
 
 ## API Limitations
 - Doesn't allow for pagination
   - The requests don't allow a "limit" argument
-- Doesn't allow to get the "no rating" products
+- Doesn't allow to get the "no rating" products isolated
   -  If we want to get the products whose rating is null we have to get all the products
 - When getting products with different tags it returns their interception/reunion (AND) instead of their addition (OR)
   - If I send a request with tags=[canadian, organic], instead of returning all the canadian products and all the organic products, it returns their interception (AND)
